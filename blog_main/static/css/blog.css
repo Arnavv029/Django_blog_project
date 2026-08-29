@@ -67,3 +67,33 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.registration-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.registration-form label,
+.registration-form input,
+.registration-form select,
+.registration-form textarea,
+.registration-form .helptext,
+.registration-form .errorlist {
+  font-size: 1rem;
+}
+
+.registration-form label {
+  font-weight: 600;
+}
+
+.registration-form button {
+  align-self: flex-start;
+}
